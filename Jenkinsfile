@@ -1,4 +1,4 @@
-node {
+node('docker && git') {
     def app
 
     stage('Clone repository') {
